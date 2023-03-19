@@ -7,5 +7,17 @@ JavaScript course
             <li>Richard Krasso</li>
             <li>Nolan Berryhill</li>
         </ul>
+        <ul>
+            <h3>week-1</h3>
+                <li>assignment-1</li>
+                <li>assignment-2</li>
+                <li>assignment-3</li>
+        </ul>
+        <ul>
+            <h4>week-2</h3>
+                <li>assignment-1</li>
+                <li>assignment-2</li>
+                <li>assignment-3</li>
+        </ul>
 </body>
 
