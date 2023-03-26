@@ -7,47 +7,73 @@
 ;==========================================
 */
 
+//Assigns variables for first names
+const oneOne = "Ludwig"
+const twoOne = "Johann"
+const threeOne = "Wolfgang"
+
+//Assign variables for last names
+const oneTwo = "Beethoven"
+const twoTwo = "Bach"
+const threeTwo = "Mozart"
+
+//Assign Variables for addresses
+const oneThree = "505 main street"
+const twoThree = "512 main street"
+const threeThree = "600 main street"
+
+//Assign Variables for dates
+const oneFour = new Date().toLocaleDateString('en-US');
+const twoFour = new Date().toLocaleDateString('en-US');
+const threeFour = new Date().toLocaleDateString('en-US');
+
+//Assign Variables for pay rates
+const oneFive = 18.9.toFixed(1);
+const twoFive = 25.5.toFixed(1);
+const threeFive = 50.1.toFixed(1);
+
+
 //Assigns list item 1 within the first unordered list of the HTML to a string value
-const li_oneOne = document.getElementById("oneOne").innerHTML = "Ludwig";
+document.getElementById("one-One").innerHTML = oneOne;
 
 //Assigns list item 2 within the first unordered list of the HTML to a string value
-const li_oneTwo = document.getElementById("oneTwo").innerHTML = "Beethoven";
+document.getElementById("one-Two").innerHTML = oneTwo;
 
 //Assigns list item 3 within the first unordered list of the HTML to a string value
-const li_oneThree = document.getElementById("oneThree").innerHTML = "505 main street";
+document.getElementById("one-Three").innerHTML = oneThree;
 
 //Assigns list item 4 within the first unordered list of the HTML to a string value
-const li_oneFour = document.getElementById("oneFour").innerHTML = new Date().toLocaleDateString('en-US');
+document.getElementById("one-Four").innerHTML = oneFour;
 
 //Assigns list item 5 within the first unordered list of the HTML to a string value
-const li_oneFive = document.getElementById("oneFive").innerHTML = 18.9.toFixed(1);
+document.getElementById("one-Five").innerHTML = oneFive;
 
 //Assigns list item 1 within the second unordered list of the HTML to a string value
-const li_twoOne = document.getElementById("twoOne").innerHTML = "Johann";
+document.getElementById("two-One").innerHTML = twoOne;
 
 //Assigns list item 2 within the second unordered list of the HTML to a string value
-const li_twoTwo = document.getElementById("twoTwo").innerHTML = "Bach";
+document.getElementById("two-Two").innerHTML = twoTwo;
 
 //Assigns list item 3 within the second unordered list of the HTML to a string value
-const li_twoThree = document.getElementById("twoThree").innerHTML = "512 main street";
+document.getElementById("two-Three").innerHTML = twoThree;
 
 //Assigns list item 4 within the second unordered list of the HTML to a string value
-const li_twoFour = document.getElementById("twoFour").innerHTML = new Date().toLocaleDateString('en-US');
+document.getElementById("two-Four").innerHTML = twoFour;
 
 //Assigns list item 5 within the second unordered list of the HTML to a string value
-const li_twoFive = document.getElementById("twoFive").innerHTML = 25.501.toFixed(1);
+document.getElementById("two-Five").innerHTML = twoFive;
 
 //Assigns list item 1 within the third unordered list of the HTML to a string value
-const li_threeOne = document.getElementById("threeOne").innerHTML = "Wolfgang";
+document.getElementById("three-One").innerHTML = threeOne;
 
 //Assigns list item 2 within the third unordered list of the HTML to a string value
-const li_threeTwo = document.getElementById("threeTwo").innerHTML = "Mozart";
+document.getElementById("three-Two").innerHTML = threeTwo;
 
 //Assigns list item 3 within the third unordered list of the HTML to a string value
-const li_threeThree = document.getElementById("threeThree").innerHTML = "600 main street";
+document.getElementById("three-Three").innerHTML = threeThree;
 
 //Assigns list item 4 within the third unordered list of the HTML to a string value
-const li_threeFour = document.getElementById("threeFour").innerHTML = new Date().toLocaleDateString('en-US');
+document.getElementById("three-Four").innerHTML = threeFour;
 
 //Assigns list item 5 within the third unordered list of the HTML to a string value
-const li_threeFive = document.getElementById("threeFive").innerHTML = 50.1.toFixed(1);
+document.getElementById("three-Five").innerHTML = threeFive;
