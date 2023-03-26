@@ -5,6 +5,16 @@
     Description: Global styles for html
 */
 
+/**
+Links to the html file
+*/
+
+html,
+
+/**
+Provides the style location for id
+*/
+
 #container {
     top: 2%;
     left: 5%;
@@ -12,6 +22,10 @@
     bottom: 100px;
     padding: 10px;
 }
+
+/**
+Provide text principals for the class
+*/
 
 .card-title {
     text-align: center;
@@ -21,24 +35,43 @@
     padding: 5px;
 }
 
+/**
+Provide font family for entire body
+*/
+
 body {
-    font-family: 'Roboto', "Hevetica Neue", sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Arial, sans-serif;
 }
+
+/**
+Provides color and no decoration for original button
+*/
 
 .return-home {
     color: #4F3674;
     text-decoration: none;
 }
 
+/**
+Provides color for hovering over button
+*/
+
 .return-home:hover {
     background-color: #D6A800;
     color: #4F3674;
 }
 
+/**
+Provides color after you visit the link
+*/
+
 .return-home:visited {
     color: #3C275A;
 }
 
+/**
+Provides color, border, and padding for the first header
+*/
 
 h1 {
     background-color: #3C275A;
@@ -46,6 +79,10 @@ h1 {
     border: solid 1px #D6A800;
     padding: 10px;
 }
+
+/**
+Provides color, border, and padding for the three H3 headers
+*/
 
 h3 {
     background-color: #3C275A;

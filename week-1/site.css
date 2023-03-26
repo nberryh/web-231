@@ -5,15 +5,21 @@
     Description: Styles for the index.html file
 */
 
-/* site.css */
+/**
+site.css 
+*/
 
-/* Font for the body */
+/**
+Font for the body 
+*/
 
 html, body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
-/* Styles for h1, h2, h3, h4 */
+/**
+Provides color, border, and padding for the first header
+*/
 
 h1 {
     background-color: #3C275A;
@@ -21,18 +27,33 @@ h1 {
     border: solid 1px #D6A800;
     padding: 10px;
 }
+
+/**
+Provides color, border, and padding for the second header
+*/
+
 h2 {
     background-color: #3C275A;
     color: white;
     border: solid 1px #D6A800;
     padding: 10px;
 }
+
+/**
+Provides color, border, and padding for the two h3 headers
+*/
+
 h3 {
     background-color: #3C275A;
     color: white;
     border: solid 1px #D6A800;
     padding: 10px;
 }
+
+/**
+Provides color, border, and padding for the final header
+*/
+
 h4 {
     background-color: #3C275A;
     color: white;
@@ -40,16 +61,28 @@ h4 {
     padding: 10px;
 }
 
-/* Styles for li */
+/**
+Provides color and no decoration for original button
+*/
 
 li {
     color: #453674;
     text-decoration: none;
 }
+
+/**
+Provides color for hovering on the button
+*/
+
 li:hover {
     background-color: #D6A800;
     color: #4F3674;
 }
+
+/**
+Provides color after you visit the button
+*/
+
 li:visited {
     color: #3C275A
 }
