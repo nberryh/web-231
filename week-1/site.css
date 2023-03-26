@@ -1,20 +1,20 @@
 /**
     Title: site.css
     Author: Nolan Berryhill
-    Date: 03/19/23
-    Description: CSS for HTML
+    Date: 03/25/2023
+    Description: Styles for the index.html file
 */
 
-/**
-Font for the body
-*/
+/* site.css */
+
+/* Font for the body */
+
 html, body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
-/**
-Styles for h1, h2, h3, h4
-*/
+/* Styles for h1, h2, h3, h4 */
+
 h1 {
     background-color: #3C275A;
     color: white;
@@ -40,9 +40,8 @@ h4 {
     padding: 10px;
 }
 
-/**
-Styles for li/a
-*/
+/* Styles for li */
+
 li {
     color: #453674;
     text-decoration: none;

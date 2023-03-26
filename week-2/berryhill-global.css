@@ -1,0 +1,55 @@
+/**
+    Title: berryhill-payroll.css
+    Author: Nolan Berryhill
+    Date: 03/25/2023
+    Description: Global styles for html
+*/
+
+#container {
+    top: 2%;
+    left: 5%;
+    right: 5%;
+    bottom: 100px;
+    padding: 10px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Roboto', "Hevetica Neue", sans-serif;
+}
+
+.return-home {
+    color: #4F3674;
+    text-decoration: none;
+}
+
+.return-home:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+.return-home:visited {
+    color: #3C275A;
+}
+
+
+h1 {
+    background-color: #3C275A;
+    color: white;
+    border: solid 1px #D6A800;
+    padding: 10px;
+}
+
+h3 {
+    background-color: #3C275A;
+    color: white;
+    border: solid 1px #D6A800;
+    padding: 10px;
+}

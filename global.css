@@ -1,6 +1,23 @@
-/* global.css */
+/**
+    Title: global.css
+    Author: Nolan Berryhill
+    Date: 03/25/2023
+    Description: Styling with old css
+*/
 
-/* Styles for container */
+/**
+global.css 
+*/
+
+/**
+Links to the html file
+*/
+
+html,
+
+/**
+Styles for container 
+*/
 
 #container {
     top: 2%;
@@ -10,7 +27,9 @@
     padding: 10px;
 }
 
-/* Styles for card */
+/**
+Styles for card 
+*/
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -18,22 +37,29 @@
     width: 50%;
 }
 
-/* Styles for card-title */
+/**
+Styles for card-title 
+*/
 
 .card-title {
     text-align: center;
     font-size: 2em;
     color: #4F3674;
     font-weight: 400;
+    padding: 5px;
 }
 
-/* Styles for card-content */
+/**
+Styles for card-content 
+*/
 
 .card-content {
     padding: 2px 16px;
 }
 
-/* Styles for btn */
+/**
+Styles for btn 
+*/
 
 .btn {
     border: none;
@@ -47,7 +73,9 @@
     color: black;
 }
 
-/*Styles for input */
+/**
+Styles for input 
+*/
 
 .input {
     padding: 12px 20px;
@@ -58,35 +86,121 @@
     box-sizing: border-box;
 }
 
-/*Styles for btn-primary */
+/**
+Color for the original button 
+*/
 
 .btn-primary {
     background-color: #4F3674;
     color: white
 }
 
-/* Styles for hover */
+/**
+Styles for hovering over the button
+*/
 
 .btn-primary:hover {
     background-color: #D6A800;
     color: #4F3674
 }
 
-/* Style for full-width */
+/**
+Full width for class
+*/
 
 .full-width {
     width: 100%;
 }
 
-/* Styles for form */
+/**
+How the grid will display
+*/
 
 .form {
     display: -ms-inline-grid;
     grid-template-columns: auto;
 }
 
-/* Styles for form-field */
+/**
+Padding of the class
+*/
 
 .form-field {
     padding: 20px;
+}
+
+/**
+Font-family for html 
+*/
+
+body {
+    font-family: 'Roboto', "Hevetica Neue", sans-serif;
+}
+
+/**
+Font weight for the class
+*/
+
+.app-header {
+    font-weight: 400;
+}
+
+/**
+Provides the border and how the display will be for the class
+*/
+
+.drop-down-menu {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/**
+Provides color and no decoration for original button
+*/
+
+.return-home {
+    color: #4F3674;
+    text-decoration: none;
+}
+
+/**
+Provides color for hovering over button
+*/
+
+.return-home:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+/**
+Provides color after you visit the link
+*/
+
+.return-home:visited {
+    color: #3C275A;
+}
+
+/**
+Provides color, border, and padding for the first header
+*/
+
+h1 {
+    background-color: #3C275A;
+    color: white;
+    border: solid 1px #D6A800;
+    padding: 10px;
+}
+
+/**
+Provides color, border, and padding for the third header
+*/
+
+h3 {
+    background-color: #3C275A;
+    color: white;
+    border: solid 1px #D6A800;
+    padding: 10px;
 }

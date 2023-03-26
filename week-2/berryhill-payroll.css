@@ -1,0 +1,14 @@
+/**
+    Title: berryhill-payroll.css
+    Author: Nolan Berryhill
+    Date: 03/25/2023
+    Description: Styles for unordered lists and main header
+*/
+
+.list {
+    border: 1px dotted red;
+}
+
+#payroll-header {
+    text-align: center;
+}
