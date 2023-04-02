@@ -20,13 +20,13 @@ body {
 }
 
 /**
-Border for buttons
+Color for h1
 */
 
 .temp {
-    border-color: none;
     background-color: none;
     color: black;
+    border: none;
 }
 
 /**

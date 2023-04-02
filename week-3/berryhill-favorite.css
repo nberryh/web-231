@@ -23,8 +23,22 @@ body {
 Position the text center for id
 */
 
-#payroll-header {
+#favorite-header {
     text-align: center;
+    border-color: none;
+    background: none;
+    background-color: none;
+    color: black;
+    border: none;
+}
+
+#fav-title {
+    color:#3C275A;
+}
+
+body {
+    max-width: 50%;
+    margin: auto;
 }
 
 /**
@@ -35,5 +49,6 @@ Color, border, and padding for buttons
     background-color: #3C275A;
     color: white;
     border: solid 1px #D6A800;
-    padding: 10px;
+    padding: 30px;
+    text-decoration: none;
 }
