@@ -1,0 +1,126 @@
+<!--
+    Title: berryhill-temp-conversion.html
+    Author: Nolan Berryhill
+    Date: 04/01/2023
+    Description: Favorites assignment for week-3
+-->
+
+<!-- Establishes this document as a html -->
+
+<!DOCTYPE html>
+
+<!-- Select the language in the html -->
+
+<html lang="en">
+
+    <!-- Title and links for the html -->
+
+    <head>
+
+        <!-- Title of the Page -->
+
+        <title>WEB 231 - Enterprise JavaScript I: Exercise 3.3</title>
+
+        <!-- CSS links for the html -->
+
+        <link href="berryhill-temp-conversion.css" rel="stylesheet">
+        <link href="berryhill-global.css" rel="stylesheet">
+
+        <!-- Link to the Google Fonts for the html -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+
+    <!-- Code for the body of the web page -->
+
+    <body>
+
+        <!-- The container id for the section -->
+
+        <div id="container">
+
+            <!-- Heading for h1 and the id name -->
+
+            <h1 class="temp">Welcome to the Temperature Conversion App!</h1>
+
+            <!-- div and id for the section -->
+
+            <div id="card-example">
+
+                <!-- div class of class card title -->
+
+                <div class="card">
+
+                    <!-- div of class card title -->
+
+                    <div class="card title">
+
+                        <!-- Header for the buttons -->
+
+                        <h2 id="temp-title">Fahrenheit to Celsius Converter</h2>
+
+                        <!-- Where the user will pick their number-->
+
+                        <label>Fahrenheit:<input type="number" id="fahrenheit">
+                        </label>
+
+                        <!-- Break in Page-->
+
+                        <br>
+
+                        <div class="click-button">
+
+                            <!-- Button for Convert Temperature -->
+
+                            <button type="button" class="btn btn-primary full-width" onclick="farToCel()">Convert Temperature</button>
+
+
+                        <!-- Closing of Code -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Break in Page -->
+
+            <br>
+
+            <!-- div and class for the section -->
+
+            <div class="card">
+
+                <!-- div for the section -->
+
+                <div class="card title">
+                    
+                    <!-- Header for the section -->
+
+                    <h3>Conversion Results</h3>
+
+                    <!-- Where the results will appear -->
+
+                    <p id="results"></p>
+
+                    <!-- Closing code -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Button to Return to Page -->
+
+        <a href="https://nberryh.github.io/web-231/week-1/index.html" class="return-home">Return</a>
+
+
+        <!-- Link to JavaScript code -->
+
+        <script src="berryhill-temp-conversion.js"></script>
+
+        <!-- Closing of Code -->
+
+    </body>
+</html>

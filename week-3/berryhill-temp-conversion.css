@@ -1,0 +1,38 @@
+/**
+    Title: berryhill-temp-conversion.css
+    Author: Nolan Berryhill
+    Date: 04/01/2023
+    Description: Styles for main header
+*/
+
+/**
+Links to the html file
+*/
+
+html,
+
+/**
+Center the text
+*/
+
+body {
+    text-align: center;
+}
+
+/**
+Border for buttons
+*/
+
+.temp {
+    border-color: none;
+    background-color: none;
+    color: black;
+}
+
+/**
+Take off the red line for the break in page
+*/
+
+br {
+    text-decoration: none;
+}

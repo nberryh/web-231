@@ -11,6 +11,10 @@ Links to the html file
 
 html,
 
+/**
+Center the text
+*/
+
 body {
     text-align: center;
 }
@@ -25,7 +29,8 @@ Position the text center for id
 
 /**
 Color, border, and padding for buttons
-**/
+*/
+
 .click-button {
     background-color: #3C275A;
     color: white;
