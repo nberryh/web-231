@@ -24,6 +24,9 @@ Color for h1
 */
 
 .temp {
+    text-align: center;
+    border-color: none;
+    background: none;
     background-color: none;
     color: black;
     border: none;
@@ -35,4 +38,15 @@ Take off the red line for the break in page
 
 br {
     text-decoration: none;
+}
+
+/**
+Color, border, and padding for button
+*/
+
+.click-button {
+    background-color: none;
+    border: solid 1px #3C275A;
+    color: white;
+    padding: 30px;
 }

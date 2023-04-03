@@ -1,0 +1,126 @@
+/**
+    Title: berryhill-global.css
+    Author: Nolan Berryhill
+    Date: 04/01/2023
+    Description: Global styles for html
+*/
+
+/**
+Links to the html file
+*/
+
+html,
+
+/**
+Provides the style location for id
+*/
+
+#container {
+    top: 2%;
+    left: 5%;
+    right: 5%;
+    bottom: 100px;
+    padding: 10px;
+}
+
+/**
+Provide text principals for the class
+*/
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+/**
+Provide font family for entire body
+*/
+
+body {
+    font-family: 'Roboto', "Helvetica Neue", sans-serif;
+}
+
+/**
+Provides color and no decoration for original button
+*/
+
+.return-home {
+    color: #4F3674;
+    text-decoration: none;
+}
+
+/**
+Provides color for hovering over button
+*/
+
+.return-home:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+/**
+Provides color after you visit the link
+*/
+
+.return-home:visited {
+    color: #3C275A;
+}
+
+/**
+Provides color, border, and padding for the first header
+*/
+
+h1 {
+    background-color: #3C275A;
+    color: white;
+    border: solid 1px #D6A800;
+    padding: 10px;
+}
+
+/**
+Provides color, border, and padding for the three H3 headers
+*/
+
+h2 {
+    color: #3C275A;
+    padding: 10px;
+}
+
+/**
+Styles for btn 
+*/
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 15px 32px;
+}
+
+/**
+Color for the original button 
+*/
+
+.btn-primary {
+    background-color: #4F3674;
+    color: white
+}
+
+/**
+Styles for hovering over the button
+*/
+
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674
+}
+
+/**
+Full width for class
+*/
+
+.full-width {
+    width: 100%;
+}
