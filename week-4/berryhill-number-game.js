@@ -13,7 +13,7 @@ const rnd = Math.floor((Math.random() * 10) + 1);
 function chkGuess() {
     
     const msgLessThan = "Your number is less than ";
-    const msgMoreThan = "Your number is higher than ";
+    const msgMoreThan = "Your number is greater than ";
     const msgCongrats = "Congratulations; you picked the correct number!";
 
     if (rnd < guess) {
