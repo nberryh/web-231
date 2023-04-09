@@ -1,7 +1,7 @@
 /**
-    Title: berryhill-temp-conversion.css
+    Title: berryhill-number-game.css
     Author: Nolan Berryhill
-    Date: 04/01/2023
+    Date: 04/09/2023
     Description: Styles for html
 */
 
@@ -20,17 +20,6 @@ body {
 }
 
 /**
-Color for h1
-*/
-
-.temp {
-    text-align: center;
-    background: none;
-    color: black;
-    border: none;
-}
-
-/**
 Take off the red line for the break in page
 */
 
@@ -46,4 +35,15 @@ Color, border, and padding for button
     border: solid 1px #3C275A;
     color: white;
     padding: 30px;
+}
+
+/**
+Color for h1
+*/
+
+.temp {
+    text-align: center;
+    background: none;
+    color: black;
+    border: none;
 }

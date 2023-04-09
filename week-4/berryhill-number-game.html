@@ -1,8 +1,8 @@
 <!--
-    Title: berryhill-temp-conversion.html
+    Title: berryhill-number-game.html
     Author: Nolan Berryhill
-    Date: 04/01/2023
-    Description: Conversion assignment for week-3
+    Date: 04/09/2023
+    Description: Number game assignment for week 4
 -->
 
 <!-- Establishes this document as a html -->
@@ -23,7 +23,7 @@
 
         <!-- CSS links for the html -->
 
-        <link href="berryhill-temp-conversion.css" rel="stylesheet">
+        <link href="berryhill-number-game.css" rel="stylesheet">
         <link href="berryhill-global.css" rel="stylesheet">
 
         <!-- Link to the Google Fonts for the html -->
@@ -43,7 +43,7 @@
 
             <!-- Heading for h1 and the id name -->
 
-            <h1 class="temp">Welcome to the Temperature Conversion App!</h1>
+            <h1 class="temp">Welcome to the number game!</h1>
 
             <!-- div and id for the section -->
 
@@ -59,11 +59,11 @@
 
                         <!-- Header for the buttons -->
 
-                        <h2 id="temp-title">Fahrenheit to Celsius Converter</h2>
+                        <h2 id="temp-title">Pick a number from 1-10</h2>
 
                         <!-- Where the user will pick their number-->
 
-                        <label>Fahrenheit value:<input type="number" id="fahrenheit">
+                        <label>Guess the number:<input type="inputs" id="guessing-number">
                         </label>
 
                         <!-- Break in Page-->
@@ -74,7 +74,7 @@
 
                             <!-- Button for Convert Temperature -->
 
-                            <button type="button" class="btn btn-primary full-width" onclick="farToCel()">Convert Temperature</button>
+                            <button type="button" class="btn btn-primary" onclick="chkGuess()">Submit</button>
 
 
                         <!-- Closing of Code -->
@@ -100,11 +100,11 @@
                     
                     <!-- Header for the section -->
 
-                    <h3>Conversion Results</h3>
+                    <h3>Results</h3>
 
                     <!-- Where the results will appear -->
 
-                    <p id="results"></p>
+                    <p id="number-results"></p>
 
                     <!-- Closing code -->
 
@@ -119,7 +119,7 @@
 
             <!-- Link to JavaScript code -->
 
-            <script src="berryhill-temp-conversion.js"></script>
+            <script src="berryhill-number-game.js"></script>
 
         <!-- Closing of Code -->
         
