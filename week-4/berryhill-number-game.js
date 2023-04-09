@@ -14,13 +14,13 @@ function chkGuess() {
     
     const msgLessThan = "Your number is less than ";
     const msgMoreThan = "Your number is higher than ";
-    const msgCongrats = "Congrats; you picked the correct number!";
+    const msgCongrats = "Congratulations; you picked the correct number!";
 
     if (rnd < guess) {
-         document.getElementById("number-results").innerHTML = msgLessThan;
+         document.getElementById("number-results").innerHTML = msgLessThan + " " + document.getElementById('guessing-number').value;
     }
     else if (rnd > guess) {
-        document.getElementById("number-results").innerHTML = msgMoreThan;
+        document.getElementById("number-results").innerHTML = msgMoreThan + " " + document.getElementById('guessing-number').value;
     }
     else if (rnd = guess) {
         document.getElementById("number-results").innerHTML = msgCongrats;

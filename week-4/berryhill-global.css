@@ -68,6 +68,18 @@ Provides color after you visit the link
 }
 
 /**
+Styles for btn 
+*/
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 15px 32px;
+}
+
+/**
 Color for the original button 
 */
 
@@ -85,3 +97,5 @@ Styles for hovering over the button
     background-color: #D6A800;
     color: #4F3674
 }
+
+

@@ -47,3 +47,11 @@ Color for h1
     color: black;
     border: none;
 }
+
+/**
+Color for h2
+*/
+
+.temp-title {
+    color: #3C275A;
+}
