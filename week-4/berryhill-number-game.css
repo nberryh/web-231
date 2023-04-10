@@ -5,53 +5,16 @@
     Description: Styles for html
 */
 
-/**
-Links to the html file
-*/
+/*card padding */
 
-html,
-
-/**
-Center the text
-*/
-
-body {
+.card{
+    margin:auto;
     text-align: center;
 }
 
-/**
-Take off the red line for the break in page
-*/
+/* provide styling for results */
 
-br {
-    text-decoration: none;
-}
-
-/**
-Color, border, and padding for button
-*/
-
-.click-button {
-    border: solid 1px #3C275A;
-    color: white;
-    padding: 30px;
-}
-
-/**
-Color for h1
-*/
-
-.temp {
+#number-results{
+    font-size: 30px;
     text-align: center;
-    background: none;
-    color: black;
-    border: none;
-}
-
-/**
-Color for h2
-*/
-
-.temp-title {
-    color: #3C275A;
 }

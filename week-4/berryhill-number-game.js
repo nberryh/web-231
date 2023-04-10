@@ -7,15 +7,22 @@
 ;==========================================
 */
 
+//Generate value to guess and rnd
+
 const guess = document.getElementById('guessing-number').value;
 const rnd = Math.floor((Math.random() * 10) + 1);
 
+//Function for chkGuess
+
 function chkGuess() {
     
+    //Set value for const
     const msgLessThan = "Your number is less than ";
     const msgMoreThan = "Your number is greater than ";
     const msgCongrats = "Congratulations; you picked the correct number!";
 
+    //How the code will send out message
+    
     if (rnd < guess) {
          document.getElementById("number-results").innerHTML = msgLessThan + " " + document.getElementById('guessing-number').value;
     }
