@@ -11,116 +11,109 @@ Links to the html file
 
 html,
 
-/**
-Provides the style location for id
-*/
+/* Card styling for shadow and transition */
 
-#container {
-    top: 2%;
-    left: 5%;
-    right: 5%;
-    bottom: 100px;
-    padding: 10px;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
 }
 
-/**
-Provide text principals for the class
-*/
+/* Provide text principals for the class */
 
-.card-title {
+.temp-title {
     text-align: center;
     font-size: 2em;
     font-weight: 400;
+    padding: 5px;
+    color:#4F3674
 }
 
-/**
-Provide font family for entire body
-*/
+/* Padding for card content */
+
+.card-content {
+    padding: 2px 16px;
+}
+
+/* provide card hover styling */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* width size */
+
+.full-width {
+    width: 100%;
+}
+
+/* provide input styling */
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Provide font family for entire body */
 
 body {
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
 }
 
-/**
-Provides color and no decoration for original button
-*/
+/* Provides color and no decoration for original button */
 
 .return-home {
     color: #4F3674;
     text-decoration: none;
 }
 
-/**
-Provides color for hovering over button
-*/
+/* Provides color for hovering over button */
 
 .return-home:hover {
     background-color: #D6A800;
     color: #4F3674;
 }
 
-/**
-Provides color after you visit the link
-*/
+/* Provides color after you visit the link */
 
 .return-home:visited {
     color: #3C275A;
 }
 
-/**
-Provides color, border, and padding for the first header
-*/
-
-h1 {
-    background-color: #3C275A;
-    color: white;
-    border: solid 1px #D6A800;
-    padding: 10px;
-}
-
-/**
-Provides color, border, and padding for the three H3 headers
-*/
-
-h2 {
-    color: #3C275A;
-    padding: 10px;
-}
-
-/**
-Styles for btn 
-*/
+/* Styles for btn */
 
 .btn {
+    border: none;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     padding: 15px 32px;
+    cursor: pointer;
+    color: black;
 }
 
-/**
-Color for the original button 
-*/
+/* Color for the original button */
 
 .btn-primary {
     background-color: #4F3674;
     color: white
 }
 
-/**
-Styles for hovering over the button
-*/
+/* Styles for hovering over the button */
 
 .btn-primary:hover {
     background-color: #D6A800;
     color: #4F3674
 }
 
-/**
-Full width for class
-*/
+/* Font size and center for h1 */
 
-.full-width {
-    width: 100%;
+.temp {
+    font-weight: 400;
+    text-align: center;
 }

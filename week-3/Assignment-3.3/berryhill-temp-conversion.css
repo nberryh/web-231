@@ -42,8 +42,12 @@ br {
 Color, border, and padding for button
 */
 
-.click-button {
-    border: solid 1px #3C275A;
-    color: white;
-    padding: 30px;
+.click-button{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card{
+    margin:auto;
+    text-align: center;
 }

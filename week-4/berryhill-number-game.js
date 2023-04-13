@@ -9,28 +9,30 @@
 
 //Generate value to guess and rnd
 
-const guess = document.getElementById('guessing-number').value;
-const rnd = Math.floor((Math.random() * 10) + 1);
+
+const rnd = Math.floor(Math.random() * 10 + 1);
 
 //Function for chkGuess
 
 function chkGuess() {
+
+    const guess = document.getElementById('guessingNumber').value;
     
     //Set value for const
     const msgLessThan = "Your number is less than ";
     const msgMoreThan = "Your number is greater than ";
-    const msgCongrats = "Congratulations; you picked the correct number!";
+    const msgCongrats = "Congratulations! you picked the correct number!";
 
     //How the code will send out message
     
-    if (rnd < guess) {
-         document.getElementById("number-results").innerHTML = msgLessThan + " " + document.getElementById('guessing-number').value;
+    if (rnd<guess) {
+         document.getElementById("numberResults").innerHTML = msgLessThan + " " + guess;
     }
-    else if (rnd > guess) {
-        document.getElementById("number-results").innerHTML = msgMoreThan + " " + document.getElementById('guessing-number').value;
+    else if (rnd>guess) {
+        document.getElementById("numberResults").innerHTML = msgMoreThan + " " + guess;
     }
-    else if (rnd = guess) {
-        document.getElementById("number-results").innerHTML = msgCongrats;
+    else {
+        document.getElementById("numberResults").innerHTML = msgCongrats;
     }
     
 }
