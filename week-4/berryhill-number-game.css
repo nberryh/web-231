@@ -18,3 +18,10 @@
     font-size: 30px;
     text-align: center;
 }
+
+/* color for h3 */
+
+h3{
+    color: #4F3674;
+    text-emphasis: none;
+}
