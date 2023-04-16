@@ -75,7 +75,7 @@ function displaySequence(){
         default:
             
             //How the code will send out message
-            alert("Invalid Selection, please try again.");
+            alert("Invalid Selection, please try again!");
 
     }
 
