@@ -47,7 +47,24 @@ Color, border, and padding for button
     text-align: center;
 }
 
+/* Alignment for card */
+
 .card{
     margin:auto;
     text-align: center;
+}
+
+/* color for h2 */
+
+h2{
+    color: #4F3674;
+    text-emphasis: none;
+}
+
+
+/* color for h3 */
+
+h3{
+    color: #4F3674;
+    text-emphasis: none;
 }
