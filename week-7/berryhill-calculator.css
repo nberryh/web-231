@@ -1,0 +1,18 @@
+/**
+    Title: berryhill-calculator.css
+    Author: Nolan Berryhill
+    Date: 04/29/2023
+    Description: Styles for html
+*/
+
+.card {
+    text-align: left;
+}
+
+.card-results {
+    text-align: right;
+}
+
+.return-home {
+    text-align: left;
+}

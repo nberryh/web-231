@@ -1,0 +1,185 @@
+<!--
+    Title: berryhill-calculator.html
+    Author: Nolan Berryhill
+    Date: 04/29/2023
+    Description: Calculator assignment for week 7
+-->
+
+<!-- Establishes this document as a html -->
+
+<!DOCTYPE html>
+
+<!-- Select the language in the html -->
+
+<html lang="en">
+
+    <!-- Title and links for the html -->
+
+    <head>
+
+        <!-- Title of the Page -->
+
+        <title>WEB 231 - Enterprise JavaScript I: Exercise 7.2</title>
+
+        <!-- CSS links for the html -->
+
+        <link href="berryhill-calculator.css" rel="stylesheet">
+        <link href="berryhill-global.css" rel="stylesheet">
+
+        <!-- Link to the Google Fonts for the html -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+
+    <!-- Code for the body of the web page -->
+
+    <body>
+
+        <!-- The container id for the section -->
+
+        <div id="container">
+
+            <!-- Heading for h1 and the id name -->
+
+            <h1 class="temp">Welcome to the Calculator App!</h1>
+
+                <!-- div class of class card title -->
+
+                <div class="card">
+
+                        <!-- Header for the buttons -->
+
+                        <h2 class="temp-title">Multiply Form</h2>
+                        
+                        <!-- class for card-content -->
+
+                        <div class="card-content">
+
+                            <!-- Where the user will pick their sequence-->
+
+                            <p><input type="text" id="firstNumber"></p>
+
+                            <p><input type="text" id="secondNumber"></p>
+
+                            <!-- class for button -->
+                            
+                            <div class="click-button">
+                            
+                                    <!-- Button for Display Listing -->
+
+                                    <button type="button" class="btn btn-primary" onclick="displayMultiplyResults()">Multiply</button>
+
+
+                                <!-- Closing of Code -->
+                                
+
+                            </div>
+
+                        </div>
+
+                </div>
+
+                <!-- div and class for the section -->
+            
+                <div class="card-results">
+            
+                    <!-- div for the section -->
+            
+                    <div class="card-title">
+                                
+                        <!-- Header for the section -->
+            
+                        <h3>Results</h3>
+            
+                            <!-- Where the results will appear -->
+            
+                            <p id="multiplyResults"></p>
+            
+                    <!-- Closing code -->
+            
+                    </div>
+                            
+                </div>
+                        
+            </div>
+
+            <!-- Break in Page -->
+
+            <br>
+
+            <div class="card">
+
+                <!-- Header for the buttons -->
+
+                <h2 class="temp-title">Divide Form</h2>
+                
+                <!-- class for card-content -->
+
+                <div class="card-content">
+
+                    <!-- Where the user will pick their sequence-->
+
+                    <p><input type="text" id="threeNumber"></p>
+
+                    <p><input type="text" id="fourNumber"></p>
+
+                    <!-- class for button -->
+                    
+                    <div class="click-button">
+                    
+                            <!-- Button for Display Listing -->
+
+                            <button type="button" class="btn btn-primary" onclick="displayDivideResults()">Divide</button>
+
+
+                        <!-- Closing of Code -->
+                        
+
+                    </div>
+
+                </div>
+            
+            </div>
+
+                <!-- div and class for the section -->
+        
+                <div class="card-results">
+        
+                    <!-- div for the section -->
+        
+                    <div class="card-title">
+                            
+                        <!-- Header for the section -->
+        
+                        <h3>Results</h3>
+        
+                        <!-- Where the results will appear -->
+        
+                        <p id="divideResults"></p>
+        
+                        <!-- Closing code -->
+        
+                    </div>
+                        
+                </div>
+                    
+            </div>
+        
+        </div>
+
+            <!-- Button to Return to Page -->
+
+            <a href="https://nberryh.github.io/web-231/index.html" class="return-home">Return</a>
+
+            <!-- Link to JavaScript code -->
+
+            <script src="berryhill-calculator.js"></script>
+
+            <!-- Closing of Code -->
+        
+        </div>
+
+    </body>
+</html>
