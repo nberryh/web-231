@@ -1,7 +1,7 @@
 /**
     Title: berryhill-global.css
     Author: Nolan Berryhill
-    Date: 04/29/2023
+    Date: 04/30/2023
     Description: Global styles for html
 */
 
@@ -111,18 +111,16 @@ body {
     color: #4F3674
 }
 
-/* Font size and center for h1 */
+/* Font size for h1 */
 
 .temp {
     font-weight: 400;
-    text-align: center;
 }
 
 /* provide styling for results */
 
 #numberResults{
     font-size: 30px;
-    text-align: center;
 }
 
 /* color for h3 */

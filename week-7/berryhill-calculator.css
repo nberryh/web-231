@@ -5,14 +5,13 @@
     Description: Styles for html
 */
 
+/* Card styling for grid display */
 .card {
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.card-results {
-    text-align: right;
-}
-
+/* Return position */
 .return-home {
     text-align: left;
 }
