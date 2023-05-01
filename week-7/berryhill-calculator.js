@@ -44,7 +44,7 @@ function displayMultiplyResults() {
         const product = multiply (numOne, numTwo);
         document.getElementById('multiplyResults').textContent = `${numOne} * ${numTwo} = ${product}`;
     } catch (error) {
-        alert("error.message"); 
+        alert(error.message); 
     } 
 }
 
@@ -60,6 +60,6 @@ function displayDivideResults() {
         const product = divide (numThree, numFour);
         document.getElementById('divideResults').textContent = `${numThree} / ${numFour} = ${product}`;
     } catch (error) {
-        alert("error.message"); 
+        alert(error.message); 
     } 
 }
