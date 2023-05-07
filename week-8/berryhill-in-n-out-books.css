@@ -1,7 +1,7 @@
 /**
     Title: berryhill-in-n-out-books.css
     Author: Nolan Berryhill
-    Date: 05/06/2023
+    Date: 05/07/2023
     Description: Styles for html
 */
 
@@ -10,14 +10,17 @@
     text-align: left;
 }
 
+/* Font weight for header */
 h3 {
    font-weight: lighter; 
 }
 
+/* Background color for tbody */
 tbody {
     background-color: white;
 }
 
+/* Color for td */
 td {
     color: black;
 }

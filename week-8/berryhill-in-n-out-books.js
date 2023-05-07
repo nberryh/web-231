@@ -7,43 +7,53 @@
 ;==========================================
 */
 
+//Set value for const
 const book1 = {
     isbn: "978-0-45-14578-1",
     title: "Storm Front",
     pages: 355
 }
 
+//Set value for const
 const book2 = {
     isbn: "978-0-06-112008-4",
     title: "1984",
     pages: 336
 }
 
+//Set value for const
 const book3 = {
     isbn: "978-1-03-106298-7",
     title: "The Hobbit",
     pages: 366
 };
 
+//Set value for const
 const author1 = {
     name: "Jim Butcher",
     genre: "Fiction"
 }
 
+//Set value for const
 const author2 = {
     name: "George Orwell",
     genre: "Fiction"
 }
 
+//Set value for const
 const author3 = {
     name: "J. R. R. Tolkien",
     genre: "Fiction"
 };
 
+//Creating the equation for multiply results
 function display() {
     const choice = document.getElementById("selection").value;
 
+    //Creating the layouts for the equation
     switch (choice) {
+
+        //Creating the layout for the equation output
         case "books":
             let tblBooks = `<h3>Top 3 Favorite Books</h3>
                             <table>
@@ -75,6 +85,7 @@ function display() {
             document.getElementById("bookResults").innerHTML = tblBooks;
             break;
 
+        //Creating the layout for the equation output
         case "authors":
             let tblAuthors = `<h3>Top 3 Favorite Authors</h3>
                                 <table>
@@ -102,6 +113,7 @@ function display() {
                 document.getElementById("bookResults").innerHTML = tblAuthors;
                 break;  
         
+        //Creating the error alert
         default:
             alert("Invalid selection, please try again!");
             break;
