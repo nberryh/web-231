@@ -1,0 +1,29 @@
+/**
+    Title: berryhill-dino-app.css
+    Author: Nolan Berryhill
+    Date: 05/14/2023
+    Description: Styles for html
+*/
+
+/* Return position */
+.return-home {
+    text-align: left;
+}
+
+/* Margin for input */
+input {
+    margin: 20px 5px 20px 20px;
+}
+
+/* Left align and margin bottom for fieldset */
+fieldset {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* width  for button */
+button {
+    width: 80%;
+}
+
+
